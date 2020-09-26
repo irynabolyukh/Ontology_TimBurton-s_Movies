@@ -27,6 +27,12 @@
     
 
 
+    <!-- http://www.kma.com/ontology1.owl#OneMoreOnemoreThing -->
+
+    <owl:Class rdf:about="http://www.kma.com/ontology1.owl#OneMoreOnemoreThing"/>
+    
+
+
     <!-- http://www.kma.com/ontology1.owl#OneMoreThing -->
 
     <owl:Class rdf:about="http://www.kma.com/ontology1.owl#OneMoreThing"/>
