@@ -1,0 +1,305 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#"
+     xml:base="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+     xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"
+     xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
+     xmlns:untitled-ontology-3="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled -->
+
+    <owl:AnnotationProperty rdf:about="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#hasActor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#hasActor">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#isStarringIn"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Film"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Actor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#hasBoss -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#hasBoss">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#isBossOf"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Actor"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Director"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#isBossOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#isBossOf">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Director"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Actor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#isDirectedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#isDirectedBy">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#isDirectorOf"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Film"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Director"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#isDirectorOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#isDirectorOf">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Director"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Film"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#isStarringIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#isStarringIn">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Film"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Actor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#actorName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#actorName"/>
+    
+
+
+    <!-- http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#directorName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#directorName"/>
+    
+
+
+    <!-- http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#filmName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#filmName"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Actor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Actor"/>
+    
+
+
+    <!-- http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Director -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Director"/>
+    
+
+
+    <!-- http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Film -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Film"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Helena_Bonham -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Helena_Bonham">
+        <rdf:type rdf:resource="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Actor"/>
+        <actorName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Helena Bonham</actorName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Johnny_Depp -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Johnny_Depp">
+        <rdf:type rdf:resource="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Actor"/>
+        <actorName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Johnny Depp</actorName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Sleepy_Hollow -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Sleepy_Hollow">
+        <rdf:type rdf:resource="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Film"/>
+        <hasActor rdf:resource="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Helena_Bonham"/>
+        <hasActor rdf:resource="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Johnny_Depp"/>
+        <filmName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sleepy Hollow</filmName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#TestActor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#TestActor">
+        <actorName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TestName</actorName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Tim_Burton -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Tim_Burton">
+        <rdf:type rdf:resource="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Director"/>
+        <isDirectorOf rdf:resource="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Sleepy_Hollow"/>
+        <directorName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tim Burton</directorName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Rules
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="a">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="f">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="d">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">findBoss</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Rule-1</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#isStarringIn"/>
+                        <swrl:argument1 rdf:resource="a"/>
+                        <swrl:argument2 rdf:resource="f"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#isDirectedBy"/>
+                                <swrl:argument1 rdf:resource="f"/>
+                                <swrl:argument2 rdf:resource="d"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#isBossOf"/>
+                        <swrl:argument1 rdf:resource="d"/>
+                        <swrl:argument2 rdf:resource="a"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
