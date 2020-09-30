@@ -323,6 +323,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Amy_Adams -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Amy_Adams">
+        <rdf:type rdf:resource="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Actor"/>
+        <actorName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Amy Adams</actorName>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Anthony_Michael_Hall -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Anthony_Michael_Hall">
@@ -342,6 +351,20 @@
     
 
 
+    <!-- http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Big_Eyes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Big_Eyes">
+        <rdf:type rdf:resource="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Film"/>
+        <hasGenreOf rdf:resource="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Biography"/>
+        <hasGenreOf rdf:resource="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Drama"/>
+        <isDirectedBy rdf:resource="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Tim_Burton"/>
+        <filmDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#int">106</filmDuration>
+        <filmName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Big Eyes</filmName>
+        <filmReleaseDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-12-15T00:00:00Z</filmReleaseDate>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Big_Fish -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Big_Fish">
@@ -352,6 +375,14 @@
         <filmDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#int">125</filmDuration>
         <filmName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Big FIsh</filmName>
         <filmReleaseDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2003-12-04T00:00:00Z</filmReleaseDate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Biography -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Biography">
+        <rdf:type rdf:resource="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Genre"/>
     </owl:NamedIndividual>
     
 
@@ -384,6 +415,33 @@
     
 
 
+    <!-- http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Christoph_Waltz -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Christoph_Waltz">
+        <rdf:type rdf:resource="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Actor"/>
+        <actorName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Christoph Waltz</actorName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Colin_Farrell -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Colin_Farrell">
+        <rdf:type rdf:resource="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Actor"/>
+        <actorName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Colin Farrell</actorName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Danny_DeVito -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Danny_DeVito">
+        <rdf:type rdf:resource="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Actor"/>
+        <actorName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Danny DeVito</actorName>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Detective -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Detective">
@@ -405,6 +463,20 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Drama">
         <rdf:type rdf:resource="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Genre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Dumbo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Dumbo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Film"/>
+        <hasGenreOf rdf:resource="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Adventure"/>
+        <hasGenreOf rdf:resource="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Fantasy"/>
+        <isDirectedBy rdf:resource="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Tim_Burton"/>
+        <filmDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#int">112</filmDuration>
+        <filmName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dumbo</filmName>
+        <filmReleaseDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-03-11T00:00:00Z</filmReleaseDate>
     </owl:NamedIndividual>
     
 
@@ -476,6 +548,16 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Helena_Bonham">
         <rdf:type rdf:resource="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Actor"/>
         <actorName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Helena Bonham Carter</actorName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Holt_Farrier -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Holt_Farrier">
+        <rdf:type rdf:resource="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Character"/>
+        <isCharacterInFilm rdf:resource="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Dumbo"/>
+        <isPlayedBy rdf:resource="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Colin_Farrell"/>
     </owl:NamedIndividual>
     
 
@@ -562,6 +644,26 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Character"/>
         <isCharacterInFilm rdf:resource="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Sleepy_Hollow"/>
         <isPlayedBy rdf:resource="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Miranda_Richardson"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Margaret_Keane -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Margaret_Keane">
+        <rdf:type rdf:resource="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Character"/>
+        <isCharacterInFilm rdf:resource="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Big_Eyes"/>
+        <isPlayedBy rdf:resource="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Amy_Adams"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Max_Medici -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Max_Medici">
+        <rdf:type rdf:resource="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Character"/>
+        <isCharacterInFilm rdf:resource="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Dumbo"/>
+        <isPlayedBy rdf:resource="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Danny_DeVito"/>
     </owl:NamedIndividual>
     
 
@@ -690,6 +792,16 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Timothy_Spall">
         <rdf:type rdf:resource="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Actor"/>
         <actorName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Timothy Spall</actorName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Walter_Keane -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Walter_Keane">
+        <rdf:type rdf:resource="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Character"/>
+        <isCharacterInFilm rdf:resource="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Big_Eyes"/>
+        <isPlayedBy rdf:resource="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Christoph_Waltz"/>
     </owl:NamedIndividual>
     
 
