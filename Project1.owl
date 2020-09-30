@@ -273,11 +273,33 @@
     
 
 
+    <!-- http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Adventure -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Adventure">
+        <rdf:type rdf:resource="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Genre"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Alan_Rickman -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Alan_Rickman">
         <rdf:type rdf:resource="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Actor"/>
         <actorName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alan Rickman</actorName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Alice_In_Wonderland -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Alice_In_Wonderland">
+        <rdf:type rdf:resource="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Film"/>
+        <hasGenreOf rdf:resource="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Adventure"/>
+        <hasGenreOf rdf:resource="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Fantasy"/>
+        <isDirectedBy rdf:resource="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Tim_Burton"/>
+        <filmDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#int">108</filmDuration>
+        <filmName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alice In Wonderland</filmName>
+        <filmReleaseDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-25T00:00:00Z</filmReleaseDate>
     </owl:NamedIndividual>
     
 
@@ -297,6 +319,20 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Character"/>
         <isCharacterInFilm rdf:resource="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Sleepy_Hollow"/>
         <isPlayedBy rdf:resource="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Michael_Gambon"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Big_Fish -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Big_Fish">
+        <rdf:type rdf:resource="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Film"/>
+        <hasGenreOf rdf:resource="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Drama"/>
+        <hasGenreOf rdf:resource="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Fantasy"/>
+        <isDirectedBy rdf:resource="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Tim_Burton"/>
+        <filmDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#int">125</filmDuration>
+        <filmName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Big FIsh</filmName>
+        <filmReleaseDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2003-12-04T00:00:00Z</filmReleaseDate>
     </owl:NamedIndividual>
     
 
