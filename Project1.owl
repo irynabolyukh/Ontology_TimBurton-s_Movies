@@ -753,21 +753,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Sweeney_Todd -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Sweeney_Todd">
-        <rdf:type rdf:resource="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Film"/>
-        <hasGenreOf rdf:resource="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Drama"/>
-        <hasGenreOf rdf:resource="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Horror"/>
-        <hasGenreOf rdf:resource="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Musical"/>
-        <isDirectedBy rdf:resource="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Tim_Burton"/>
-        <filmDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#int">116</filmDuration>
-        <filmName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sweeney Todd: The Demon Barber of Fleet Street</filmName>
-        <filmReleaseDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-12-21T00:00:00Z</filmReleaseDate>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Tarrant_Hightopp -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Tarrant_Hightopp">
