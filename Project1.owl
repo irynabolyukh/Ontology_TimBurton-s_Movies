@@ -290,6 +290,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Albert_Finney -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Albert_Finney">
+        <rdf:type rdf:resource="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Actor"/>
+        <actorName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Albert Finney</actorName>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Alice_In_Wonderland -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Alice_In_Wonderland">
@@ -300,6 +309,16 @@
         <filmDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#int">108</filmDuration>
         <filmName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alice In Wonderland</filmName>
         <filmReleaseDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-25T00:00:00Z</filmReleaseDate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Alice_Kingsleigh -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Alice_Kingsleigh">
+        <rdf:type rdf:resource="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Character"/>
+        <isCharacterInFilm rdf:resource="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Alice_In_Wonderland"/>
+        <isPlayedBy rdf:resource="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Mia_Wasikowska"/>
     </owl:NamedIndividual>
     
 
@@ -400,6 +419,26 @@
     
 
 
+    <!-- http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Edward_Bloom_senior -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Edward_Bloom_senior">
+        <rdf:type rdf:resource="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Character"/>
+        <isCharacterInFilm rdf:resource="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Big_Fish"/>
+        <isPlayedBy rdf:resource="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Albert_Finney"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Edward_Bloom_young -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Edward_Bloom_young">
+        <rdf:type rdf:resource="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Character"/>
+        <isCharacterInFilm rdf:resource="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Big_Fish"/>
+        <isPlayedBy rdf:resource="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Ewan_McGregor"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Edward_Scissorhands -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Edward_Scissorhands">
@@ -411,6 +450,15 @@
         <filmDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#int">105</filmDuration>
         <filmName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Edward Scissorhands</filmName>
         <filmReleaseDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1990-12-14T00:00:00Z</filmReleaseDate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Ewan_McGregor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Ewan_McGregor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Actor"/>
+        <actorName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ewan McGregor</actorName>
     </owl:NamedIndividual>
     
 
@@ -518,6 +566,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Mia_Wasikowska -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Mia_Wasikowska">
+        <rdf:type rdf:resource="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Actor"/>
+        <actorName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mia Wasikowska</actorName>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Michael_Gambon -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Michael_Gambon">
@@ -605,6 +662,16 @@
         <filmDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#int">116</filmDuration>
         <filmName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sweeney Todd: The Demon Barber of Fleet Street</filmName>
         <filmReleaseDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-12-21T00:00:00Z</filmReleaseDate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Tarrant_Hightopp -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Tarrant_Hightopp">
+        <rdf:type rdf:resource="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Character"/>
+        <isCharacterInFilm rdf:resource="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Alice_In_Wonderland"/>
+        <isPlayedBy rdf:resource="http://www.semanticweb.org/svakulenko/ontologies/2020/8/untitled-ontology-3#Johnny_Depp"/>
     </owl:NamedIndividual>
     
 
